@@ -1,0 +1,99 @@
+* {
+    font-family: 'PT Serif', serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+.header {
+    background-image: url(frame1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding-bottom: 60px;
+}
+
+.topic {
+    width: 50%;
+}
+
+.left-side {
+    padding: 10% 0% 0% 5%;
+}
+
+.right-side {
+    padding-top: 2%;
+}
+
+.main-title {
+    font-size: 4rem;
+}
+
+.diff-color {
+    color: #291FCE;
+    font-size: 4.2rem;
+}
+
+.details {
+    font-size: 1.2rem;
+    width: 70%;
+    color: #535c68;
+}
+
+.button {
+    color: white;
+    box-shadow: 5px 5px 30px 2px gray;
+    border-color: transparent;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 16px 38px;
+    background-color: #291FCE;
+    margin: 20px 0px;
+    transition: 200ms;
+}
+
+.button:hover {
+    box-shadow: 2px 2px 20px 1px blue;
+    color: #291FCE;
+    border-color: transparent;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    padding: 16px 38px;
+    background-color: white;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+
+.header-image {
+    width: 90%;
+}
+
+.middle-panel {
+    display: flex;
+    padding: 5% 0%;
+    background-image: url(frame2.jpg);
+    background-size: cover;
+}
+
+.about-me {
+    width: 50%;
+}
+
+.middle-left {
+    padding-left: 2%;
+}
+
+.middle-right {
+    padding-top: 10%;
+}
+
+.middle-title {
+    font-size: 3.2rem;
+}
+
+.details-middle {
+    font-size: 1.2rem;
+    width: 90%;
+    color: #535c68;
+}
