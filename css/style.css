@@ -1,4 +1,4 @@
-* {
+body {
     font-family: 'PT Serif', serif;
     margin: 0%;
     padding: 0%;
@@ -89,6 +89,8 @@
 }
 
 .middle-title {
+    padding-top: 80px;
+    margin-top: 0;
     font-size: 3.2rem;
 }
 
@@ -96,4 +98,108 @@
     font-size: 1.2rem;
     width: 90%;
     color: #535c68;
+}
+
+.recipes {
+    background-image: url(last-banner.png);
+    background-size: cover;
+}
+
+.recipe-head {
+    text-align: center;
+}
+
+.cook-details {
+    padding-top: 2%;
+    margin: auto;
+    width: 50%;
+    font-size: 1.2rem;
+    color: #535c68;
+}
+
+.detailed-recipe {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.plate {
+    background-color: aliceblue;
+    width: 40%;
+    box-shadow: 10px 10px 20px gray;
+    margin: 30px;
+    border-radius: 25px;
+}
+
+.food {
+    width: 90%;
+    margin: 35px;
+    border-radius: 25px;
+}
+
+.recipe-title {
+    font-size: 2rem;
+    padding-left: 40px;
+    padding-bottom: 10px;
+}
+
+.recipe-details {
+    font-size: 1.2;
+    color: #535c68;
+    width: 70%;
+    padding: 10px 0 30px 40px;
+}
+
+.fam-followers {
+
+    margin: 50px 70px;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 30px;
+}
+
+.upper-one {
+    height: 135px;
+    margin: auto;
+    width: 80%;
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.down-one {
+    margin: auto;
+    width: 85%;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.yt {
+    padding-left: 50px;
+}
+
+.insta {
+    padding-left: 10px;
+}
+
+footer {
+    padding: 50px 0 60px 0;
+    background-color: black;
+    text-align: center;
+}
+
+.footer-title {
+    color: gray;
+    font-weight: 700;
+    font-size: 1.7rem;
+}
+
+.blue {
+    color: #291FCE;
+}
+
+.footer-details {
+    color: white;
+    letter-spacing: 1px;
 }
